@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title> Лабораторная работа №7 </title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Леонардо Ди Каприо</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="info.html">Основная информация</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="films.html">Список фильмов</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="header">
+        <h1>Сайт посвящен 50-летию великого актера</h1>
+    </div>
+
+    <div class="content">
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+            </div>
+
+            <div id="photo" class="carousel-inner">
+                <div>
+                    <div class="carousel-item active">
+                        <img src="photo1.jpg" class="d-block actor">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="photo2.jpg" class="d-block actor">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="photo3.jpg" class="d-block actor">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="photo4.jpg" class="d-block actor">
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+
+
+    <div class="container-for-card">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="film1.jpg" class="card-img-top" alt="Фильм 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Остров проклятых</h5>
+                        <p class="card-text">Два американских судебных пристава отправляются на один из островов в штате
+                            Массачусетс, чтобы расследовать исчезновение пациентки клиники для умалишенных преступников.
+                            При проведении расследования им придется столкнуться с паутиной лжи, обрушившимся ураганом и
+                            смертельным бунтом обитателей клиники.</p>
+                        <a href="https://www.kinopoisk.ru/film/397667/" class="btn btn-primary">Смотреть на Кинопоиск</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="film2.jpg" class="card-img-top" alt="Фильм 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Волк с Уолл-стрит</h5>
+                        <p class="card-text">Джордан Белфорт основал одну из крупнейших брокерских контор в 1987 году,
+                            но десять лет спустя был осужден за отмывание денег и ряд прочих финансовых преступлений.
+                            Автор справился с алкогольной и наркотической зависимостью, выработанной за время махинаций
+                            на Уолл-стрит, написал две книги и теперь читает лекции о том, как достичь успеха.</p>
+                        <a href="https://www.kinopoisk.ru/film/462682/" class="btn btn-primary">Смотреть на Кинопоиск</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="film3.jpg" class="card-img-top" alt="Фильм 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Поймай меня, если сможешь</h5>
+                        <p class="card-text">Фрэнк Эбегнейл успел поработать врачом, адвокатом и пилотом на пассажирской
+                            авиалинии – и все это до достижения полного совершеннолетия в 21 год. Мастер в обмане и
+                            жульничестве, он также обладал искусством подделки документов, что в конечном счете принесло
+                            ему миллионы долларов. Агент ФБР Карл Хэнрэтти пытается схватить Фрэнка и привлечь к
+                            ответственности за
+                            свои деяния, но Фрэнк всегда опережает его на шаг.
+                        </p>
+                        <a href="https://www.kinopoisk.ru/film/324/" class="btn btn-primary">Смотреть на Кинопоиск</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="bio" class="container-for-info">
+        <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo1"
+            style="font-family: 'MyFont', sans-serif">Показать
+            информацию</button>
+        <div id="demo1" class="collapse">
+            <p><strong>Место рождения:</strong> Лос-Анджелес, США</p>
+            <p><strong>Образование:</strong> Обучался в Начальной школе Сидд, потом поступил в Центр расширенных
+                наук Лос-Анджелеса, в котором проучился четыре года. Затем пошёл в старшую школу Джона Маршалла.
+            </p>
+            <p><strong>Личная жизнь:</strong> В 1990-х Леонардо Ди Каприо встречался с датской моделью Хеленой
+                Кристенсен, с 2000 по 2005 год — с бразильской моделью Жизель Бюндхен, с 2006 года по 2009 год
+                встречался с израильской моделью Бар Рафаэли. 26 марта 2010 года Ди Каприо и Рафаэли официально
+                объявили о перерыве в отношениях. С лета 2010 года они опять стали встречаться и планировали
+                пожениться, однако в мае 2011 года в газете New York Post появилось сообщение, что Леонардо Ди
+                Каприо и Бар Рафаэли окончательно расстались.</p>
+        </div>
+    </div>
+</body>
+
+</html>

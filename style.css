@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('Inter-Hewn.otf');
+}
+@media (max-width: 900px) {
+    .img-fluid{
+        display: none;
+    }
+}
+body {
+    font-family: 'MyFont', sans-serif;
+    background-color: #26292c !important;
+    color: #ffffff;
+}
+
+data-bs-spy {
+    position: relative;
+}
+
+.navbar-brand, .nav-link, .card-title {
+    font-family: 'MyFont', sans-serif;
+}
+
+.navbar a {
+    color: gold;
+    font-size: 21px;
+}
+
+.header {
+    background-color: #26292c;
+    text-align: center;
+}
+
+.header h1 {
+    font-family: 'MyFont', sans-serif;
+    color: gold;
+    margin: 0px;
+}
+
+.card-text {
+    font-family: 'MyFont', sans-serif;
+}
+
+.btn {
+    font-family: 'MyFont', sans-serif;
+}
+
+.container-for-info p {
+    font-family: 'MyFont', sans-serif;
+}
+
+.row {
+    background-color: #26292c;
+}
+
+.card {
+    height: 100%;
+}
+
+.card-body {
+    background-color: #afafaf;
+}
+
+.btn-primary {
+    font-family: 'MyFont', sans-serif;
+}
+
+.carousel-inner {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.carousel-item {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-item img {
+    width: 1920px;
+    height: 900px;
+    object-fit: cover;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    background-color: #26292c;
+    width: auto;
+    padding: 10px;
+}
+
+.container-for-card {
+    display: flex;
+    background-color: #26292c;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+.container-for-card a {
+    font-family: 'MyFont', sans-serif;
+}
+
+.container-for-info {
+    text-align: center;
+    background-color: #26292c;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+    color: #ffffff;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.container {
+    background-color: #26292c;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.card {
+    background-color: transparent;
+    border: none;
+}
+
+.col-md-6 {
+    font-size: 26px;
+    font-family: 'MyFont', sans-serif;
+    color: #ffffff;
+}
+
+.col-md-4 {
+    font-family: 'MyFont', sans-serif;
+    color: #ffffff;
+}
+
+.col-md-3 {
+    font-family: 'MyFont', sans-serif;
+    color: #ffffff;
+}
+
+.container.mt-4 h2 {
+    font-family: 'MyFont', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+table {
+    font-family: 'MyFont', sans-serif;
+}
